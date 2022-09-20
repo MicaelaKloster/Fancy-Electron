@@ -1,0 +1,32 @@
+{
+  "name": "fancy-electron",
+  "displayName": "Fancy Electron",
+  "description": "Colorful dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fancy Electron",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fancy Electron-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/codigo.png",
+  "author": {
+    "name": "Micaela Kloster",
+    "email": "micaela.klosterquintana@gmail.com",
+    "url": "https://www.linkedin.com/in/micaela-kloster-b44779226"
+  },
+  "repository": {
+    "url": "https://github.com/MicaelaKloster/Fancy-Electron.git",
+    "type": "git"
+  },
+  "publisher": "micaela-kloster"
+}
